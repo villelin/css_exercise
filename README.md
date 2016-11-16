@@ -2,7 +2,7 @@
 
 1. Clone this repo to a folder of your choise `git clone https://github.com/ilkkamtk/imageList.git`
 2. Edit css/main.css
-  * The thumbnails (<li> elements) should form a grid
-  * The title of the image <h3> should be on top of the thumbnails
-  * On desktop <main> and <aside> should be side by side
-  * On mobile <main> and <aside> should be one below the other
+  * The thumbnails (li elements) should form a grid
+  * The title of the image (h3 element) should be on top of the thumbnails
+  * On desktop main and aside elements should be side by side
+  * On mobile main and aside elements should be one below the other
