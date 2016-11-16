@@ -6,3 +6,9 @@
   * The title of the image (h3 element) should be on top of the thumbnails
   * On desktop main and aside elements should be side by side
   * On mobile main and aside elements should be one below the other
+  
+Some help:
+  * http://www.w3schools.com/cssref/pr_list-style-type.asp
+  * http://www.w3schools.com/css/css_image_gallery.asp
+  * https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+  * http://www.w3schools.com/css/css3_mediaqueries.asp
