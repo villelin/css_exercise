@@ -4,7 +4,11 @@
 2. Edit css/main.css
   * The thumbnails (li elements) should form a grid
   * The title of the image (h3 element) should be on top of the thumbnails
-  * On desktop main and aside elements should be side by side
+  
+>Example layout:
+![Example layout](img/example.png)
+  
+  * On desktop main and aside elements should be side by side
   * On mobile main and aside elements should be one below the other
   
 Some help:
