@@ -8,7 +8,8 @@
 >Example layout:
 ![Example layout](img/example.png)
   
-  * On desktop main and aside elements should be side by side
+  
+  * On desktop main and aside elements should be side by side
   * On mobile main and aside elements should be one below the other
   
 Some help:
