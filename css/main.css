@@ -58,10 +58,13 @@ textarea {
 
 .primary-color {
     background-color: #2ba6cb;
+    width: 80%;
 }
 
 .secondary-color {
     background-color: #e9e9e9;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .default {
@@ -76,6 +79,7 @@ textarea {
 header {
     background-image: url(http://via.placeholder.com/960x100/000?text=HeaderBGImage);
     background-position: center;
+    width: 100%;
 }
 
 header h1 {
@@ -88,6 +92,33 @@ header h1 {
     color: #e9e9e9;
 }
 
+figcaption {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding-left: 15px;
+    background-color: rgba(255,255,255,0.5);
+    width: 100%;
+    line-height: 0.7em;
+}
+
+figure {
+    position: relative;
+    overflow: hidden;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+aside.default {
+    width: 20%;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 
 
 
@@ -104,6 +135,18 @@ header h1 {
 /* ==========================================================================
    Media Queries
    ========================================================================== */
+
+@media only screen and (max-width: 480px) {
+    .secondary-color {
+        flex-direction: column;
+    }
+    .primary-color {
+        width: 100%;
+    }
+    aside.default {
+        width: 100%;
+    }
+}
 
 @media only screen and (min-width: 35em) {
     body {
